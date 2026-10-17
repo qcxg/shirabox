@@ -1,0 +1,74 @@
+# Miscellaneous
+*.obj
+*.pdb
+*.ilk
+*.tmp
+*.bak
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Editor settings are machine-specific.
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+/dist/
+/_cleanup-trash/
+/installer/
+/android-helper/_build/
+/android-helper/build/
+/android-helper/server.jar
+/adb_toolbox.zip
+/base.apk
+*.apk
+*.apks
+*.xapk
+
+# Download the pinned upstream runtime with scripts/fetch-windows-runtime.ps1.
+# Keep the project-specific waiting launcher and setup note in source control.
+/windows/resources/scrcpy/*
+!/windows/resources/scrcpy/scrcpy-noconsole.vbs
+!/windows/resources/scrcpy/README.md
+
+# Local credentials and exports do not belong in the source backup.
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+adbkey
+adbkey.pub
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release

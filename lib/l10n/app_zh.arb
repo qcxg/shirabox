@@ -1,0 +1,295 @@
+{
+  "@@locale": "zh",
+  "appTitle": "Shirabox",
+  "navConnect": "连线",
+  "navWireless": "无线连接",
+  "navApps": "应用",
+  "navFiles": "文件",
+  "navLogs": "Logcat",
+  "navTools": "工具",
+  "navMirror": "投屏",
+  "navSettings": "设置",
+  "homeWaitDevice": "等待设备接入...",
+  "homeWaitHint": "请确保开启 USB 调试并授予电脑权限",
+  "homeManualCheck": "手动检测",
+  "homeNoAdbTitle": "未检测到 ADB 环境",
+  "homeNoAdbContent": "系统环境变量中未找到 adb.exe，\n请安装 ADB 驱动或在设置中手动指定路径。",
+  "homeGoSettings": "去配置路径",
+  "homeRetryCheck": "已安装？点击重试",
+  "homeTabCpu": "CPU",
+  "homeTabRam": "内存",
+  "homeTabStorage": "存储",
+  "homeItemKernel": "内核",
+  "homeQuickBoot": "快捷启动",
+  "appsSystemApps": "显示系统应用",
+  "appsSearchHint": "搜索应用...",
+  "appsMultiSelect": "多选模式",
+  "appsRefresh": "刷新列表",
+  "appsEmpty": "暂无数据",
+  "appsDropHint": "拖入 APK / XAPK / APKS\n自动识别安装",
+  "appsSelected": "已选: {count}",
+  "@appsSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appsSelectAll": "全选",
+  "appsDeselect": "取消",
+  "appsBatchExtract": "批量提取",
+  "appsExtractSuccess": "提取成功",
+  "appsExtractFail": "提取失败: {error}",
+  "@appsExtractFail": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appsBatchExtractFinish": "批量提取任务结束，请查看日志",
+  "actionExtractApk": "提取 APK",
+  "actionExtractAll": "提取完整包 (APKS)",
+  "actionFreeze": "冻结应用",
+  "actionUnfreeze": "解冻应用",
+  "actionUninstall": "卸载",
+  "actionOpen": "打开应用",
+  "appsLaunchWithMirror": "启动时开启投屏",
+  "installDialogTitleInstalling": "正在安装...",
+  "installDialogTitleDone": "批量安装完成",
+  "installDialogClose": "关闭",
+  "installStopAfterCurrent": "停止",
+  "installCompletedCount": "已完成 {completed}/{total}",
+  "@installCompletedCount": {
+    "placeholders": {
+      "completed": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "installVerifyRefresh": "正在刷新应用列表...",
+  "installSuccessToast": "安装已完成，正在刷新列表...",
+  "appsChoosePackages": "选择安装包",
+  "filesPathHint": "输入路径...",
+  "filesUploadDrop": "拖拽文件或文件夹到这里\n上传到当前目录",
+  "filesChooseFiles": "选择文件",
+  "filesChooseFolder": "选择文件夹",
+  "filesLoadedCount": "已加载 {count} 个项目",
+  "@filesLoadedCount": {
+    "placeholders": {"count": {"type": "int"}}
+  },
+  "filesListingFailed": "无法读取此文件夹：{error}",
+  "@filesListingFailed": {
+    "placeholders": {"error": {"type": "String"}}
+  },
+  "filesTransferStop": "停止",
+  "filesTransferUploading": "正在上传",
+  "filesTransferDownloading": "正在下载",
+  "filesTransferDeleting": "正在删除",
+  "filesTransferFailed": "{count} 个失败",
+  "@filesTransferFailed": {
+    "placeholders": {"count": {"type": "int"}}
+  },
+  "filesUploadComplete": "上传完成 ({success}/{total})",
+  "@filesUploadComplete": {
+    "placeholders": {
+      "success": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "filesSelectMode": "多选模式",
+  "filesSelected": "已选: {count}",
+  "@filesSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "filesSelectAll": "全选",
+  "filesDeselect": "取消",
+  "filesDownloadSelected": "下载选中项",
+  "filesExportSelected": "导出选中项 ({count})",
+  "@filesExportSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "filesDeleteSelected": "删除选中项",
+  "filesDeleteConfirmBatch": "确定删除选中的 {count} 个文件吗？",
+  "@filesDeleteConfirmBatch": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "filesMenuDownload": "下载",
+  "filesMenuDelete": "删除",
+  "filesDeleteDialogTitle": "确认删除",
+  "filesDeleteDialogContent": "确定要永久删除:",
+  "filesDeleteDialogPath": "路径: {path}",
+  "@filesDeleteDialogPath": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "filesSnackDownloadDone": "下载完成",
+  "filesSnackDeleteFail": "删除失败: {error}",
+  "@filesSnackDeleteFail": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "logcatHint": "筛选日志...",
+  "logcatFilterHelp": "多个条件使用 AND。可输入 tag:ActivityManager、msg:\"not responding\"、pid:1234、level:E,F 或 -noise。",
+  "logcatRegex": "正则表达式",
+  "logcatCaseSensitive": "区分大小写",
+  "logcatResumeLive": "回到实时末尾",
+  "logcatStats": "显示 {visible} / 保留 {retained} / 待处理 {pending}",
+  "@logcatStats": {
+    "placeholders": {
+      "visible": {"type": "int"},
+      "retained": {"type": "int"},
+      "pending": {"type": "int"}
+    }
+  },
+  "logcatDropped": "已丢弃 {count} 行输入",
+  "@logcatDropped": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "logcatFilterInvalid": "筛选条件无效：{error}",
+  "@logcatFilterInvalid": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "logcatNoMatches": "没有符合条件的日志",
+  "logcatPid": "PID",
+  "logcatTid": "TID",
+  "logcatBtnStop": "停止",
+  "logcatBtnStart": "开始",
+  "logcatClear": "清空日志",
+  "logcatExport": "导出 JSON",
+  "logcatExportTitle": "导出 Logcat JSON",
+  "logcatExportSaved": "已保存：{path}",
+  "@logcatExportSaved": {
+    "placeholders": {
+      "path": {"type": "String"}
+    }
+  },
+  "logcatBottom": "跟随实时末尾",
+  "logcatDetailTitle": "日志详情",
+  "logcatDetailTime": "时间",
+  "logcatDetailLevel": "级别",
+  "logcatDetailTag": "标签",
+  "logcatDetailContent": "正文内容",
+  "logcatCopyAll": "复制全部",
+  "logcatCopyContent": "复制正文",
+  "toolsShell": "Shell 终端",
+  "toolsProcess": "进程管理",
+  "toolsProp": "属性编辑 (Prop)",
+  "toolsPropSearch": "搜索属性...",
+  "toolsPropWarning": "注意：通过 ADB 修改的属性通常在设备重启后会被重置。",
+  "toolsPropEditTitle": "修改属性",
+  "toolsInspector": "UI 检视器",
+  "toolsInspDump": "抓取布局",
+  "toolsInspNodeInfo": "节点属性",
+  "processShowSystem": "显示系统进程",
+  "processAutoRefresh": "自动刷新",
+  "processSearchHint": "搜索进程名或PID...",
+  "processBtnRefresh": "刷新",
+  "processBtnKill": "结束进程",
+  "processKillSuccess": "已结束: {name}",
+  "@processKillSuccess": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "processKillFail": "结束失败: {error}",
+  "@processKillFail": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "shellBtnRun": "执行",
+  "scrcpyTitle": "Scrcpy 投屏",
+  "scrcpyIntro": "高性能 Android 屏幕镜像工具\n开源项目: Genymobile/scrcpy",
+  "scrcpyBtnStart": "启动",
+  "scrcpyParamPreview": "启动参数预览 (可手动修改)",
+  "scrcpyGroupVideo": "画面设置",
+  "scrcpyGroupControl": "控制与操作",
+  "scrcpyMaxSize": "分辨率限制 (Max Size)",
+  "scrcpyBitrate": "比特率 (Bitrate)",
+  "scrcpyFps": "帧率 (FPS)",
+  "scrcpyStayAwake": "保持唤醒 (Stay Awake)",
+  "scrcpyTurnOffScreen": "关闭手机屏幕",
+  "scrcpyShowTouches": "显示触摸点",
+  "scrcpyAlwaysOnTop": "窗口置顶",
+  "scrcpyNoAudio": "禁用音频转发",
+  "scrcpyKeyNav": "HID 键盘模拟",
+  "qcVolUp": "音量+",
+  "qcVolDown": "音量-",
+  "qcBack": "返回",
+  "qcHome": "桌面",
+  "qcRecent": "任务",
+  "qcShot": "截图",
+  "qcPaste": "粘贴",
+  "qcPower": "电源",
+  "qcMenu": "菜单",
+  "qcEnter": "回车",
+  "qcSpace": "空格",
+  "settingsTitle": "设置",
+  "settingsLanguage": "语言 / Language",
+  "settingsTheme": "外观 / Appearance",
+  "settingsAdbPath": "ADB 环境",
+  "settingsAdbManual": "手动指定 ADB 路径",
+  "settingsAdbFallback": "回路完成：应用程序默认",
+  "settingsAdbReset": "重置为默认",
+  "settingsQuickBoot": "功能增强",
+  "settingsShowQuick": "主页显示快捷启动按钮",
+  "colorPurple": "梦境紫",
+  "colorBlue": "深海蓝",
+  "colorGreen": "森林绿",
+  "colorRed": "玫瑰红",
+  "colorOrange": "落日橙",
+  "colorPink": "樱花粉",
+  "colorGrey": "极简灰",
+  "colorTeal": "青色",
+  "colorIndigo": "靛蓝",
+  "colorBrown": "棕色",
+  "dialogSwitchDevice": "切换当前设备",
+  "deviceCurrentTag": "当前",
+  "btnAddCustom": "添加自定义指令",
+  "dialogAddTitle": "添加快捷指令",
+  "dialogName": "名称",
+  "dialogCommand": "Shell 命令",
+  "btnCancel": "取消",
+  "btnAdd": "添加",
+  "tipPowerMenu": "电源菜单",
+  "tipRestartSystem": "重启系统",
+  "tipRestartRecovery": "重启到 Recovery",
+  "tipRestartBootloader": "重启到 Bootloader",
+  "tipShutdown": "关机",
+  "tipKillServer": "停止服务并退出",
+  "tipRefresh": "刷新连接",
+  "wirelessHistory": "历史记录",
+  "wirelessEnterIp": "输入 IP:Port",
+  "wirelessConnect": "连接",
+  "wirelessDisconnect": "断开",
+  "wirelessRemoveHistory": "移除记录",
+  "wirelessIp": "IP 地址",
+  "wirelessPort": "端口",
+  "wirelessWarning": "此装置正通过无线连接，可能造成操作延迟或部分功能受限"
+}
